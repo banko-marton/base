@@ -1,3 +1,5 @@
 language: java
-jdk:
-  - oraclejdk15
+os: linux
+
+script:
+  - ./gradlew build
