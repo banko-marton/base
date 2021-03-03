@@ -1,4 +1,3 @@
-
 This repo is used by __Bankó Márton__
 > This is a quote to illustrate formatting
 _To complete this lab, do the following:_
