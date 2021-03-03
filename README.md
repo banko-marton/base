@@ -1,5 +1,5 @@
 
-This repo is used by __banko-marton__
+This repo is used by __Márton Bankó__
 > This is a quote to illustrate formatting
 _To complete this lab, do the following:_
 1. Read task
