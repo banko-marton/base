@@ -50,5 +50,18 @@ public class TrainSystemTest {
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
 
-	
+	@Test //Testing if larger speed limit makes the train go faster
+	public void newTest1(){
+		sensor.overrideSpeedLimit(10);
+		user.overrideJoystickPosition(10);
+
+		controller.followSpeed();
+		Assert.assertEquals(10, controller.getReferenceSpeed());
+
+		sensor.overrideSpeedLimit(20);
+
+		controller.followSpeed();
+		Assert.assertEquals(20, controller.getReferenceSpeed());
+
+	}
 }
