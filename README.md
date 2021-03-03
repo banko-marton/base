@@ -1,3 +1,12 @@
+
+This repo is used by __banko-marton__
+> This is a quote to illustrate formatting
+_To complete this lab, do the following:_
+1. Read task
+2. Solve task
+3. Document it 
+
+
 # Train Speed Controller
 
 This is a sample application for the verification laboratory.
@@ -11,6 +20,7 @@ This is a sample application for the verification laboratory.
 Clone the repository and execute Gradle to build the application:
 
 ```
+
 ./gradlew build
 ```
 
